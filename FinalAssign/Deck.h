@@ -11,14 +11,14 @@
 #define DECK_H
 
 #include <iostream>
-
-#include "CardPile.h"
+#include "Pile.h"
+#include "Card.h"
 
 
 using namespace std;
 
 
-class Deck: public CardPile
+class Deck: public Pile<Card>
 {
 public:
     Deck();

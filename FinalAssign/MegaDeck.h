@@ -12,9 +12,10 @@
 
 #include<iostream>
 #include "Deck.h"
-#include "CardPile.h"
+#include "Pile.h"
+#include "Card.h"
 
-class MegaDeck: public CardPile
+class MegaDeck: public Pile<Card>
 {
 private:
     int decks;

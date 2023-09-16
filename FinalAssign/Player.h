@@ -10,10 +10,11 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 #include <iostream>
-#include "CardPile.h"
+#include "Card.h"
+#include "Pile.h"
 
 
-class Player: public CardPile
+class Player: public Pile<Card>
 {
   private:
     int state; 

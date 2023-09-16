@@ -10,9 +10,11 @@
 #ifndef LOSTFOUNDPILE_H
 #define LOSTFOUNDPILE_H
 #include <iostream>
-#include "CardPile.h"
+#include "Pile.h"
+#include "Card.h"
 
-class LostFoundPile: public CardPile
+
+class LostFoundPile: public Pile<Card>
 {
   public:
   LostFoundPile();

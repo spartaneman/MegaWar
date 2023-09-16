@@ -10,10 +10,11 @@
 #ifndef WARPILE_H
 #define WARPILE_H
 #include <iostream>
-#include "CardPile.h"
+#include "Pile.h"
+#include "Card.h"
 
 
-class WarPile: public CardPile
+class WarPile: public Pile<Card>
 {
 public:
   WarPile();
